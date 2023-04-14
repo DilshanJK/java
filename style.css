@@ -1,0 +1,18 @@
+.im{
+    width: 10%;
+
+}
+
+table{
+    border: 3px solid black;
+    width:50%;
+    
+}
+tr{
+    
+  display: block;
+}
+div{
+    margin: 0 40%;
+}
+

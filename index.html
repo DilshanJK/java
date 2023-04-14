@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="new.js"></script>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <div>
+  <table>
+    <form >
+        
+        <tr>
+       <th><label for="age">AGE</label></th> 
+        <td><input type="age" id="jk" placeholder="Enter text" onblur="getVal()"></td>
+      </tr>
+
+      <tr> 
+        <th><label for="male">GENDER  </label></th>
+        <td><input type="radio" id="male" name="gender" >
+
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" >
+        <label for="female">  female</label></td>
+      </tr>
+       
+
+        <tr>
+          <th><label for="height">HEIGHT</label></th>
+        <td><input type="text" id="height1" onblur="getHeight()" ></td>
+      </tr>
+        
+      <tr>
+        <th><label for="weight">WEIGHT</label></th>
+        <td><input type="text" id="weight1" onblur="getWeight()" ></td>
+
+      </tr>
+
+
+
+        <tr>
+          <td>
+            
+            <input type="image" src="cbut.png" value="Calculate"  class="im" onblur="calBmi">
+            <input type="image" src="clearbut.png" value="clear" class="im">
+          </td>
+        </tr>
+      
+
+
+       
+      </form>
+    </table>
+    <p class="output" id="out1" ></p>
+  </div>
+  
+</body>
+</html>
